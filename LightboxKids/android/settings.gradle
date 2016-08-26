@@ -1,0 +1,3 @@
+rootProject.name = 'LightboxKids'
+
+include ':app'
