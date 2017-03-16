@@ -11,7 +11,7 @@ let loggedIn = false
 export default function getClient () {
   if (!loggedIn) {
     return Promise.resolve(
-      client.login('light3@stayradiated.com', 'georgerocks')
+      client.login('fake@email.com', 'password')
     ).then(() => {
       loggedIn = true
       return client
